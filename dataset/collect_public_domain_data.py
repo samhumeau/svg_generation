@@ -50,7 +50,7 @@ def download_svg(filename):
 
 if __name__ == "__main__":
     file_names = []
-    for i in range(1, 3):
+    for i in range(1, 35):
         file_names += get_filenames_from_webpage(f'https://publicdomainvectors.org/en/free-clipart/date/svg/1000/{i}')
         time.sleep(0.3)
     for name in tqdm.tqdm(file_names):
